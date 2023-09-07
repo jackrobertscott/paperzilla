@@ -5,7 +5,7 @@ export interface MultiItemSelectorProps {
   // props...
 }
 
-export const $MultiItemSelector: FC<MultiItemSelectorProps> = ({}) => {
+export const MultiItemSelector: FC<MultiItemSelectorProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

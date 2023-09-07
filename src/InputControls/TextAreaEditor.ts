@@ -5,7 +5,7 @@ export interface TextAreaEditorProps {
   // props...
 }
 
-export const $TextAreaEditor: FC<TextAreaEditorProps> = ({}) => {
+export const TextAreaEditor: FC<TextAreaEditorProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

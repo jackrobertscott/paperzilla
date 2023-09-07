@@ -5,7 +5,7 @@ export interface CheckboxSelectorProps {
   // props...
 }
 
-export const $CheckboxSelector: FC<CheckboxSelectorProps> = ({}) => {
+export const CheckboxSelector: FC<CheckboxSelectorProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

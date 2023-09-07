@@ -5,7 +5,7 @@ export interface RichTextEditorProps {
   // props...
 }
 
-export const $RichTextEditor: FC<RichTextEditorProps> = ({}) => {
+export const RichTextEditor: FC<RichTextEditorProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

@@ -5,7 +5,7 @@ export interface RootProps {
   // props...
 }
 
-export const $Root: FC<RootProps> = ({}) => {
+export const Root: FC<RootProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

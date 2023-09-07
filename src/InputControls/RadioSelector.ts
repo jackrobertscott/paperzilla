@@ -5,7 +5,7 @@ export interface RadioSelectorProps {
   // props...
 }
 
-export const $RadioSelector: FC<RadioSelectorProps> = ({}) => {
+export const RadioSelector: FC<RadioSelectorProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

@@ -5,7 +5,7 @@ export interface DatePickerProps {
   // props...
 }
 
-export const $DatePicker: FC<DatePickerProps> = ({}) => {
+export const DatePicker: FC<DatePickerProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

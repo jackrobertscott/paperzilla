@@ -50,7 +50,7 @@ export interface ${component}Props {
   // props...
 }
 
-export const \$${component}: FC<${component}Props> = ({}) => {
+export const ${component}: FC<${component}Props> = ({}) => {
   return \$('div', {
     className: css({
       // code...

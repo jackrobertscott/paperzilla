@@ -5,7 +5,7 @@ export interface OverlayProps {
   // props...
 }
 
-export const $Overlay: FC<OverlayProps> = ({}) => {
+export const Overlay: FC<OverlayProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

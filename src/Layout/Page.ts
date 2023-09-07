@@ -5,7 +5,7 @@ export interface PageProps {
   // props...
 }
 
-export const $Page: FC<PageProps> = ({}) => {
+export const Page: FC<PageProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

@@ -5,7 +5,7 @@ export interface FileUploaderProps {
   // props...
 }
 
-export const $FileUploader: FC<FileUploaderProps> = ({}) => {
+export const FileUploader: FC<FileUploaderProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

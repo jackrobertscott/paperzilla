@@ -5,7 +5,7 @@ export interface TabsProps {
   // props...
 }
 
-export const $Tabs: FC<TabsProps> = ({}) => {
+export const Tabs: FC<TabsProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

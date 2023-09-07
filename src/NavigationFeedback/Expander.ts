@@ -5,7 +5,7 @@ export interface ExpanderProps {
   // props...
 }
 
-export const $Expander: FC<ExpanderProps> = ({}) => {
+export const Expander: FC<ExpanderProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

@@ -5,7 +5,7 @@ export interface CenterProps {
   // props...
 }
 
-export const $Center: FC<CenterProps> = ({}) => {
+export const Center: FC<CenterProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

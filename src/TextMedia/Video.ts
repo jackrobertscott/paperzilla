@@ -5,7 +5,7 @@ export interface VideoProps {
   // props...
 }
 
-export const $Video: FC<VideoProps> = ({}) => {
+export const Video: FC<VideoProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

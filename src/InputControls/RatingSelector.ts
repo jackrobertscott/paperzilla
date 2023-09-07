@@ -5,7 +5,7 @@ export interface RatingSelectorProps {
   // props...
 }
 
-export const $RatingSelector: FC<RatingSelectorProps> = ({}) => {
+export const RatingSelector: FC<RatingSelectorProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

@@ -5,7 +5,7 @@ export interface CardProps {
   // props...
 }
 
-export const $Card: FC<CardProps> = ({}) => {
+export const Card: FC<CardProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

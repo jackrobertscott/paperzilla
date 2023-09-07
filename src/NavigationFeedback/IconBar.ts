@@ -5,7 +5,7 @@ export interface IconBarProps {
   // props...
 }
 
-export const $IconBar: FC<IconBarProps> = ({}) => {
+export const IconBar: FC<IconBarProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

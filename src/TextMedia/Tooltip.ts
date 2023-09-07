@@ -5,7 +5,7 @@ export interface TooltipProps {
   // props...
 }
 
-export const $Tooltip: FC<TooltipProps> = ({}) => {
+export const Tooltip: FC<TooltipProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

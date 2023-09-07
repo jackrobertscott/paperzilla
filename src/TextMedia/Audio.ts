@@ -5,7 +5,7 @@ export interface AudioProps {
   // props...
 }
 
-export const $Audio: FC<AudioProps> = ({}) => {
+export const Audio: FC<AudioProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

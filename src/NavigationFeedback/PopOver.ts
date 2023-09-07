@@ -5,7 +5,7 @@ export interface PopOverProps {
   // props...
 }
 
-export const $PopOver: FC<PopOverProps> = ({}) => {
+export const PopOver: FC<PopOverProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

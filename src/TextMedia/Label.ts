@@ -5,7 +5,7 @@ export interface LabelProps {
   // props...
 }
 
-export const $Label: FC<LabelProps> = ({}) => {
+export const Label: FC<LabelProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

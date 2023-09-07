@@ -5,7 +5,7 @@ export interface PortalProps {
   // props...
 }
 
-export const $Portal: FC<PortalProps> = ({}) => {
+export const Portal: FC<PortalProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

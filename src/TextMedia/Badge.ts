@@ -5,7 +5,7 @@ export interface BadgeProps {
   // props...
 }
 
-export const $Badge: FC<BadgeProps> = ({}) => {
+export const Badge: FC<BadgeProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

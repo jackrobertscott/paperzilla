@@ -5,7 +5,7 @@ export interface TextEditorProps {
   // props...
 }
 
-export const $TextEditor: FC<TextEditorProps> = ({}) => {
+export const TextEditor: FC<TextEditorProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

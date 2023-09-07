@@ -5,7 +5,7 @@ export interface QuestionProps {
   // props...
 }
 
-export const $Question: FC<QuestionProps> = ({}) => {
+export const Question: FC<QuestionProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

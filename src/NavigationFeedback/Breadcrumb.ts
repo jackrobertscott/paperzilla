@@ -5,7 +5,7 @@ export interface BreadcrumbProps {
   // props...
 }
 
-export const $Breadcrumb: FC<BreadcrumbProps> = ({}) => {
+export const Breadcrumb: FC<BreadcrumbProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

@@ -5,7 +5,7 @@ export interface DrawerProps {
   // props...
 }
 
-export const $Drawer: FC<DrawerProps> = ({}) => {
+export const Drawer: FC<DrawerProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

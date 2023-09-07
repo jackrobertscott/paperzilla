@@ -5,7 +5,7 @@ export interface MenuProps {
   // props...
 }
 
-export const $Menu: FC<MenuProps> = ({}) => {
+export const Menu: FC<MenuProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

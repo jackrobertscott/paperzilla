@@ -5,7 +5,7 @@ export interface SidebarProps {
   // props...
 }
 
-export const $Sidebar: FC<SidebarProps> = ({}) => {
+export const Sidebar: FC<SidebarProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

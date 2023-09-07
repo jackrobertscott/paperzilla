@@ -5,7 +5,7 @@ export interface MatrixProps {
   // props...
 }
 
-export const $Matrix: FC<MatrixProps> = ({}) => {
+export const Matrix: FC<MatrixProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

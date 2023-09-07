@@ -5,7 +5,7 @@ export interface ProgressProps {
   // props...
 }
 
-export const $Progress: FC<ProgressProps> = ({}) => {
+export const Progress: FC<ProgressProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

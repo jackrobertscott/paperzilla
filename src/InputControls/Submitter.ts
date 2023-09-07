@@ -5,7 +5,7 @@ export interface SubmitterProps {
   // props...
 }
 
-export const $Submitter: FC<SubmitterProps> = ({}) => {
+export const Submitter: FC<SubmitterProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

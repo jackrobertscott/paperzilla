@@ -5,7 +5,7 @@ export interface AccordionProps {
   // props...
 }
 
-export const $Accordion: FC<AccordionProps> = ({}) => {
+export const Accordion: FC<AccordionProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

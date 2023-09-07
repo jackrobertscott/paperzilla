@@ -5,7 +5,7 @@ export interface ListProps {
   // props...
 }
 
-export const $List: FC<ListProps> = ({}) => {
+export const List: FC<ListProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

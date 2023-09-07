@@ -5,7 +5,7 @@ export interface AvatarProps {
   // props...
 }
 
-export const $Avatar: FC<AvatarProps> = ({}) => {
+export const Avatar: FC<AvatarProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

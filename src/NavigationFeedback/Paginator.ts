@@ -5,7 +5,7 @@ export interface PaginatorProps {
   // props...
 }
 
-export const $Paginator: FC<PaginatorProps> = ({}) => {
+export const Paginator: FC<PaginatorProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

@@ -5,7 +5,7 @@ export interface TagProps {
   // props...
 }
 
-export const $Tag: FC<TagProps> = ({}) => {
+export const Tag: FC<TagProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

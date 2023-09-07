@@ -5,7 +5,7 @@ export interface HeadingProps {
   // props...
 }
 
-export const $Heading: FC<HeadingProps> = ({}) => {
+export const Heading: FC<HeadingProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

@@ -5,7 +5,7 @@ export interface RowProps {
   // props...
 }
 
-export const $Row: FC<RowProps> = ({}) => {
+export const Row: FC<RowProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

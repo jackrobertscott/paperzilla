@@ -5,7 +5,7 @@ export interface ToastProps {
   // props...
 }
 
-export const $Toast: FC<ToastProps> = ({}) => {
+export const Toast: FC<ToastProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

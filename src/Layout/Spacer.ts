@@ -5,7 +5,7 @@ export interface SpacerProps {
   // props...
 }
 
-export const $Spacer: FC<SpacerProps> = ({}) => {
+export const Spacer: FC<SpacerProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

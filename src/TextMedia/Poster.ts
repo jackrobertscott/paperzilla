@@ -5,7 +5,7 @@ export interface PosterProps {
   // props...
 }
 
-export const $Poster: FC<PosterProps> = ({}) => {
+export const Poster: FC<PosterProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

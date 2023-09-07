@@ -5,7 +5,7 @@ export interface BottomNavProps {
   // props...
 }
 
-export const $BottomNav: FC<BottomNavProps> = ({}) => {
+export const BottomNav: FC<BottomNavProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

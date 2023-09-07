@@ -5,7 +5,7 @@ export interface FieldProps {
   // props...
 }
 
-export const $Field: FC<FieldProps> = ({}) => {
+export const Field: FC<FieldProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

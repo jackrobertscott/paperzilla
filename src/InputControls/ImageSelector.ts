@@ -5,7 +5,7 @@ export interface ImageSelectorProps {
   // props...
 }
 
-export const $ImageSelector: FC<ImageSelectorProps> = ({}) => {
+export const ImageSelector: FC<ImageSelectorProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

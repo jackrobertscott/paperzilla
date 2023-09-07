@@ -5,7 +5,7 @@ export interface GraphProps {
   // props...
 }
 
-export const $Graph: FC<GraphProps> = ({}) => {
+export const Graph: FC<GraphProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

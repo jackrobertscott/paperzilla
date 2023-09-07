@@ -5,7 +5,7 @@ export interface DropdownSelectorProps {
   // props...
 }
 
-export const $DropdownSelector: FC<DropdownSelectorProps> = ({}) => {
+export const DropdownSelector: FC<DropdownSelectorProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

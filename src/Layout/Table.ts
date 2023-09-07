@@ -5,7 +5,7 @@ export interface TableProps {
   // props...
 }
 
-export const $Table: FC<TableProps> = ({}) => {
+export const Table: FC<TableProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

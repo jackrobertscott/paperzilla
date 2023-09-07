@@ -5,7 +5,7 @@ export interface GridProps {
   // props...
 }
 
-export const $Grid: FC<GridProps> = ({}) => {
+export const Grid: FC<GridProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

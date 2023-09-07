@@ -5,7 +5,7 @@ export interface SearcherProps {
   // props...
 }
 
-export const $Searcher: FC<SearcherProps> = ({}) => {
+export const Searcher: FC<SearcherProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

@@ -5,7 +5,7 @@ export interface SliderAdjusterProps {
   // props...
 }
 
-export const $SliderAdjuster: FC<SliderAdjusterProps> = ({}) => {
+export const SliderAdjuster: FC<SliderAdjusterProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

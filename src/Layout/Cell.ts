@@ -5,7 +5,7 @@ export interface CellProps {
   // props...
 }
 
-export const $Cell: FC<CellProps> = ({}) => {
+export const Cell: FC<CellProps> = ({}) => {
   return $('div', {
     className: css({
       // code...

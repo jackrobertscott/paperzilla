@@ -5,7 +5,7 @@ export interface DialogProps {
   // props...
 }
 
-export const $Dialog: FC<DialogProps> = ({}) => {
+export const Dialog: FC<DialogProps> = ({}) => {
   return $('div', {
     className: css({
       // code...
